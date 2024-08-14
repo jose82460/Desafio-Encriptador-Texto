@@ -32,7 +32,7 @@ Extras:
 Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
 
 
-## Cómo funciona:
+ Cómo funciona:
 
 1. #### Ingresa tu texto:
    Escribe el mensaje que deseas cifrar en el campo de texto.
