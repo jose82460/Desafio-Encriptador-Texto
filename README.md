@@ -1,6 +1,7 @@
-# Encriptador y Desencriptador: ¡Codifica tus mensajes al instante!  ![License](https://img.shields.io/badge/License-OpenSource-blue.svg) [![Code](https://img.shields.io/badge/FilesCode-GitHub-Black.svg)](https://github.com/jissykakin/encriptadorJsByJissy) ![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg) ![Status](https://img.shields.io/badge/Status-Under%20Review-green.svg)
+# Deafio de Encriptador y Desencriptador de Texto.
 
-Desafio que nos permite encriptar un texto segun los requerimientos
+
+Desafio que nos permite encriptar un texto segun los requerimientos: 
 
 Debe funcionar solo con letras minúsculas
 
