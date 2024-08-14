@@ -11,6 +11,8 @@ Debe ser posible convertir una palabra para la versión encriptada también devo
 
 Las "llaves" de encriptación que utilizaremos son las siguientes:
 
+
+- **JavaScript**: La parte funcional de la logica de encriptación, desencriptación y otras alerta.
 La letra "e" es convertida para "enter"
 La letra "i" es convertida para "imes"
 La letra "a" es convertida para "ai"
