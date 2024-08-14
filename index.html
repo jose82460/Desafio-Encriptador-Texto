@@ -9,5 +9,28 @@
     <header class="header">
         <h1 class="titulo">Encriptador de Texto</h1>
     </header>
+    <main class="principal">
+        <section class="encriptador__envia">
+            <div class="contenedor">
+                <textarea id="textarea" class="contenedor__texto" placeholder="Ingrese el texto aquí"></textarea>
+            </div>
+            <div class="envio">
+                <div class="alerta">
+                    <img class="alerta__busqueda" src="imagenes/busqueda.png" alt="busqueda">
+                    <p class="alerta__texto">Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="botones">
+                    <button onclick="encriptar()" id="botonEncriptado" class="boton__encriptar">Encriptar</button>
+                    <button onclick="desencriptar()" id="botonDesencriptado" class="boton__desencriptar">Desencriptar</button>
+                </div>
+            </div>
+        </section>
+        <div id="encriptado" class="desencriptador">
+            <img class="desencriptador__imagen" src="imagenes/mensaje.png" alt="Mensaje">
+            <h2 class="desencriptador__subtitulo">Ningun mensaje fue encontrado</h2>
+            <p class="desencriptador__texto">Ingresa el texto que deseas encriptar o desencriptar.</p>
+        </div>
+    </main>
+
 </body>
 </html>
