@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de Texto Basico</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
     <header class="header">
+        
         <h1 class="titulo">Encriptador de Texto</h1>
     </header>
     <main class="principal">
@@ -16,9 +19,10 @@
             </div>
             <div class="envio">
                 <div class="alerta">
-                    <img class="alerta__busqueda" src="imagenes/busqueda.png" alt="busqueda">
+                    <img class="alerta__busqueda" src="imagenes/mensaje.png" alt="busqueda">
                     <p class="alerta__texto">Solo letras minúsculas y sin acentos</p>
                 </div>
+                
                 <div class="botones">
                     <button onclick="encriptar()" id="botonEncriptado" class="boton__encriptar">Encriptar</button>
                     <button onclick="desencriptar()" id="botonDesencriptado" class="boton__desencriptar">Desencriptar</button>
@@ -26,11 +30,15 @@
             </div>
         </section>
         <div id="encriptado" class="desencriptador">
-            <img class="desencriptador__imagen" src="imagenes/mensaje.png" alt="Mensaje">
+            <img class="desencriptador__imagen" src="imagenes/busqueda.png" alt="Mensaje">
             <h2 class="desencriptador__subtitulo">Ningun mensaje fue encontrado</h2>
             <p class="desencriptador__texto">Ingresa el texto que deseas encriptar o desencriptar.</p>
         </div>
     </main>
-
+    <footer class="footer">
+        <img class="logo" src="imagenes/logo.png" alt="logo">
+        <p class="footer__texto">2024</p>
+    </footer>
+    <script src="js/codigo.js"></script>
 </body>
 </html>
