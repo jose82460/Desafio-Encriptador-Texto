@@ -185,15 +185,13 @@ body{
     position: absolute;
     bottom: 0;
 }
-
-@media (max-width: 1200px){
+@media screen and (max-width: 1200px) {
     .copiar__boton{
         width: auto;
     }
 }
 
-@media (max-width: 1024px){
-    
+@media screen and (max-width: 1024px) {    
     .encriptador{
         display: flex;
         flex-direction: column;
@@ -229,7 +227,18 @@ body{
         width: 100%;
     }
 }
-@media (max-width: 767px){
+@media screen and (max-width: 767px) {   
+    
+    .principal{
+        margin: auto 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+    
+
     .header{
         height: 10dvh;
         justify-content: center;
@@ -266,11 +275,12 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         width: auto;
         height: 10%;
         padding: 2rem;
         border-radius: 1.5rem;
+       
     }
     .desencriptador__imagen{
         display: none;
